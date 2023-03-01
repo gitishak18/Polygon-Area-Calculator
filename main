@@ -1,0 +1,13 @@
+rect = Rectangle(5, 10)
+print(rect.get_area())  # Output: 50
+print(rect.get_perimeter())  # Output: 30
+print(rect.get_diagonal())  # Output: 11.180339887498949
+print(rect.get_picture())  # Output: *****\n*****\n*****\n*****\n*****\n
+print(rect.get_amount_inside(Square(2)))  # Output: 12
+
+sq = Square(9)
+print(sq.get_area())  # Output: 81
+print(sq.get_perimeter())  # Output: 36
+print(sq.get_diagonal())  # Output: 12.727922061357855
+print(sq.get_picture())  # Output: *********\n*********\n*********\n*********\n*********\n*********\n*********\n*********\n*********\n
+print(sq.get_amount_inside(Rectangle(4, 8)))  # Output: 2
